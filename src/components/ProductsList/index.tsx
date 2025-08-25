@@ -26,7 +26,7 @@ const ProductsList = ({ background, title, clothes }: Props) => (
             key={clothing.id}
             category={clothing.tipo}
             description={clothing.descricao}
-            image={clothing.cardapio[0].foto}
+            image={clothing.capa}
             type={clothing.avaliacao}
             title={clothing.titulo}
             id={clothing.id}
